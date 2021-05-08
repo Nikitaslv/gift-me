@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift me</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header header__padding">
+        <div class="container">
+          <div class="header__inner">
+            <a class="logo" href="#"
+              ><img src="./images/logo.svg" alt="logo"
+            /></a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">О нас</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Друзья</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Мой личный кабинет</a>
+                </li>
+              </ul>
+              <div class="header__bell"></div>
+              <div class="header__gift">
+                <img
+                  class="header__gift-img"
+                  src="./images/gift.svg"
+                  alt="gift-box"
+                />
+              </div>
+              <a class="header__link header__link_btn" href="#">Выйти</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="questionnaire">
+          <div class="questionnaire__form">
+            <div class="questionnaire__form-input">
+              <label class="questionnaire__form-label" for="name">Имя</label>
+              <input class="questionnaire__form-field" type="text" id="name" />
+              <label class="questionnaire__form-edit" for="name"></label>
+            </div>
+            <div class="questionnaire__form-input">
+              <label class="questionnaire__form-label" for="lastname"
+                >Фамилия</label
+              >
+              <input
+                class="questionnaire__form-field"
+                type="text"
+                id="lastname"
+              />
+              <label class="questionnaire__form-edit" for="lastname"></label>
+            </div>
+            <label class="questionnaire__form-label" for="date"
+              >День рождения</label
+            >
+            <input type="date" id="date" />
+            <div class="questionnaire__form-input">
+              <label class="questionnaire__form-label" for="info">О себе</label>
+              <textarea
+                class="questionnaire__form-area"
+                id="info"
+                maxlength="140"
+              ></textarea>
+              <p class="questionnaire__form-text">140 символов</p>
+            </div>
+            <div class="questionnaire__form-input">
+              <label class="questionnaire__form-label" for="facebook"
+                >Facebook</label
+              >
+              <input
+                class="questionnaire__form-field"
+                type="text"
+                id="facebook"
+              />
+              <label class="questionnaire__form-edit" for="facebook"></label>
+            </div>
+            <div class="questionnaire__form-input">
+              <label class="questionnaire__form-label" for="instagram"
+                >Instagram</label
+              >
+              <input
+                class="questionnaire__form-field"
+                type="text"
+                id="instagram"
+              />
+              <label class="questionnaire__form-edit" for="instagram"></label>
+            </div>
+            <div class="questionnaire__btns">
+              <a class="exit-btn" href="#">Выйти</a>
+              <button type="submit" class="save-btn">Сохранить</button>
+            </div>
+          </div>
+          <div class="account-settings">
+            <a class="edit-password" href="#">Изменить пароль</a>
+            <a class="delete-account" href="#">Удалить аккаунт</a>
+          </div>
+          <div class="popup__delete">
+              <div class="close"></div>
+              <label class="popup__delete-label" for="delete-password"
+                >Введите пароль</label
+              >
+              <input
+                class="popup__delete-field"
+                type="password"
+                id="delete-password"
+              />
+              <div class="popup__delete-btns">
+                  <button class="popup__delete-btn">Удалить</button>
+                  <a class="popup__delete-btn popup__delete-btn_blue" href="#">Отменить</a>
+              </div>
+          </div>
+          <div class="popup__edit">
+            <div class="close"></div>
+            <label class="popup__edit-label" for="present-password"
+              >Текущий пароль</label
+            >
+            <input
+              class="popup__edit-field popup__edit-field_marginb"
+              type="password"
+              id="present-password"
+            />
+            <label class="popup__edit-label" for="new-password"
+              >Новый пароль</label
+            >
+            <input
+              class="popup__edit-field"
+              type="password"
+              id="new-password"
+            />
+            <div class="popup__edit-btns">
+                <button class="popup__edit-btn popup__edit-btn_blue">Изменить</button>
+                <a class="popup__edit-btn" href="#">Отменить</a>
+            </div>
+        </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

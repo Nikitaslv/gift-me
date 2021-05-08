@@ -1,0 +1,53 @@
+$white: #fff;
+$color-text: #000000;
+%save-btn {
+  background-color: #ffca12;
+  border-radius: 10px;
+  color: #000;
+  width: 188px;
+  padding: 16px 0 14px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+}
+%save-btn-focus {
+  background-color: #ffd648;
+  border: none;
+}
+%save-btn-active {
+  background-color: #f8dc7c;
+  border: none;
+}
+%save-btn-hover {
+  border: 2px solid #ac8911;
+}
+%save-btn-disabled {
+  background: #cccccc;
+  border: none;
+}
+%exit-btn {
+  padding: 16px 70px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  border: 2px solid #ffca12;
+  border-radius: 10px;
+  outline: none;
+}
+%blue-save-btn {
+  outline: none;
+  border: none;
+  background-color: #1db3c3;
+  font-weight: 500;
+  color: #fbfbfb;
+  padding: 14px 9px;
+  width: 117px;
+  border-radius: 10px;
+}
+%blue-save-btn-active {
+  background-color: #1e8c98;
+  border: 2px solid #14828d;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift me</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a class="logo" href="#"
+              ><img src="./images/logo.svg" alt="logo"
+            /></a>
+            <div class="header__right">
+              <a class="header__link" href="#">О нас</a>
+              <a class="registration__link" href="#">Регистрация</a>
+              <a class="header__link" href="#">Войти</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main main_width">
+        <section class="registration">
+          <h3 class="registration__title">Авторизация</h3>
+          <p class="registration__description">регистрация через</p>
+          <a class="registration__gmail" href="#">Gmail</a>
+          <div class="registration__form">
+            <p class="star">*</p>
+            <input
+              class="registration__field registration__field_margin"
+              type="email"
+              placeholder="Email"
+            />
+            <p class="star">*</p>
+            <div class="registration__password">
+              <input
+                class="registration__field registration__field_padding"
+                type="password"
+                id="password-input"
+                placeholder="Пароль"
+                name="password"
+              />
+              <div class="registration__password-control"></div>
+            </div>
+            <p class="registration__password-text">Не менее 8 символов.</p>
+            <a class="registration__forget" href="#">Забыли пароль?</a>
+            <button class="registration__btn" type="submit">
+              Войти
+            </button>
+            <p class="login__link">У вас еще нет аккаунта?</p>
+            <a class="reg__link" href="#">Зарегистрироваться</a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
